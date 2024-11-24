@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://clinton-fezeu.github.io/my-portfolio",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -19,6 +20,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "format": "prettier --write .",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
