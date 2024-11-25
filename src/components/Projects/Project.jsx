@@ -5,7 +5,7 @@ const Project = props => {
   const { img, disc, url } = props.item;
   return (
     <Container className="project">
-      <img src={img} alt="project" />
+      <img src={`${process.env.PUBLIC_URL}/${img}`} alt="project" />
       <div className="disc">
         <h1>Description</h1>
         <p>
