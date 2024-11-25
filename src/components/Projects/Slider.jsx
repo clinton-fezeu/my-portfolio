@@ -35,6 +35,11 @@ let data = [
     disc: 'Portfolio of Clinton Fezeu using W3CSS',
     url: 'https://clinton-fezeu.github.io/portfolio/',
   },
+  {
+    img: '/customersurvey.PNG',
+    disc: 'Customer Survey for a company to get feedback from customers',
+    url: 'https://clinton-fezeu.github.io/customersurvey/',
+  },
 ];
 
 var settings = {
