@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "set-homepage:root": "node set-homepage.js root",
     "set-homepage:subdir": "node set-homepage.js subdir",
-    "deploy:root": "npm run set-homepage:root && npm run build && gh-pages -d build -r https://github.com/clinton-fezeu/clinton-fezeu.github.io.git",
+    "deploy:root": "npm run set-homepage:root && npm run build && gh-pages -d build -r https://github.com/clinton-fezeu/clinton-fezeu.git",
     "deploy:subdir": "npm run set-homepage:subdir && npm run build && gh-pages -d build -r https://github.com/clinton-fezeu/my-portfolio.git",
     "deploy:all": "npm run deploy:root && npm run deploy:subdir",
     "format": "prettier --write .",
