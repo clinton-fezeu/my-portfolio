@@ -1,8 +1,8 @@
 {
-  "name": "my-portfolio",
+  "name": "clinton-fezeu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://clinton-fezeu.github.io/my-portfolio",
+  "homepage": "https://clinton-fezeu.github.io",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -21,8 +21,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "set-homepage:root": "node set-homepage.js root",
+    "set-homepage:subdir": "node set-homepage.js subdir",
+    "deploy:root": "npm run set-homepage:root && npm run build && gh-pages -d build -r https://github.com/clinton-fezeu/clinton-fezeu.github.io.git",
+    "deploy:subdir": "npm run set-homepage:subdir && npm run build && gh-pages -d build -r https://github.com/clinton-fezeu/my-portfolio.git",
+    "deploy:all": "npm run deploy:root && npm run deploy:subdir",
     "format": "prettier --write .",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
