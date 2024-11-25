@@ -58,7 +58,7 @@ const ProfComponent = () => {
       </Slide>
       <Slide direction="right">
         <Profile>
-          <img src="/clinton.jpg" alt="profile" />
+          <img src={`${process.env.PUBLIC_URL}/clinton.jpg`} alt="profile" />
         </Profile>
       </Slide>
     </Container>
