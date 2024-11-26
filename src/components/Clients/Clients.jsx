@@ -9,16 +9,14 @@ let clients = [
   {
     name: 'Sarah Thompson',
     position: 'Small Business Owner',
-    img_url:
-      'https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg',
+    img_url: 'https://randomuser.me/api/portraits/women/68.jpg',
     stars: 5,
     disc: `Clinton did an amazing job redesigning my business website. The new layout is clean, responsive, and attracts more customers. Highly recommend him for web design projects!`,
   },
   {
     name: 'Michael Richards',
     position: 'Freelance Marketer',
-    img_url:
-      'https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg',
+    img_url: 'https://randomuser.me/api/portraits/men/50.jpg',
     stars: 4,
     disc: `Clinton developed a custom dashboard for tracking my campaigns. It was delivered on time and met all the requirements. His backend skills are commendable!`,
   },
@@ -26,7 +24,7 @@ let clients = [
     name: 'Emma Wilson',
     position: 'Startup Founder',
     img_url:
-      'https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg',
+      'https://images.unsplash.com/photo-1517841905240-472988babdf9?crop=faces&fit=crop&w=200&h=200',
     stars: 5,
     disc: `Clinton created a stunning portfolio website for my startup. The responsiveness and interactivity were beyond expectations. He was easy to work with and very professional.`,
   },
@@ -34,7 +32,7 @@ let clients = [
     name: 'David Lee',
     position: 'Project Manager',
     img_url:
-      'https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg',
+      'https://images.unsplash.com/photo-1527980965255-d3b416303d12?crop=faces&fit=crop&w=200&h=200',
     stars: 5,
     disc: `I worked with Clinton on a complex project that required integrating multiple APIs. His ability to problem-solve and deliver high-quality code made the project a success.`,
   },
